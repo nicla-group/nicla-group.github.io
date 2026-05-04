@@ -1,10 +1,10 @@
 ---
-title: "ONDA Lab website is online!"
-description: "Presentation of ONDA Lab new website"
+title: "NICLA website is online!"
+description: "Presentation of NICLA website"
 author: "News"
-date: "2026-04-26"
+date: "2026-05-04"
 categories: [news]
-image: "/files/images/NICLA_logo.png"
+image: "/files/images/NICLA_logo_large.png"
 #css: /custom.css
 #draft: true
 ---
