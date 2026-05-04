@@ -15,9 +15,9 @@
 <link>https://drganghe.github.io/quarto-academic-website-template/posts.html</link>
 </image>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Sat, 25 Apr 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 03 May 2026 22:00:00 GMT</lastBuildDate>
 <item>
-  <title>ONDA Lab website is online!</title>
+  <title>NICLA website is online!</title>
   <dc:creator>News </dc:creator>
   <link>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/post1.html</link>
   <description><![CDATA[ 
@@ -45,8 +45,8 @@ https://quarto.org/docs/authoring/includes.html
  ]]></description>
   <category>news</category>
   <guid>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/post1.html</guid>
-  <pubDate>Sat, 25 Apr 2026 22:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/NICLA_logo.png" medium="image" type="image/png" height="74" width="144"/>
+  <pubDate>Sun, 03 May 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/NICLA_logo_large.png" medium="image" type="image/png" height="74" width="144"/>
 </item>
 </channel>
 </rss>
