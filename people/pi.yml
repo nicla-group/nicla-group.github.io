@@ -3,6 +3,25 @@
       title: "Giorgio Arcara"
       lastname: "Website"
 #      author: 
-      subtitle: "PI"
+      subtitle: "Founder"
 #      date: "2024-03-12"
-      categories: [Director] 
+      categories: [Founders] 
+
+    - path: 
+      image: "/files/profiles/Sara_Mondini.png"
+      title: "Sara Mondini"
+      lastname: "Website"
+#      author: 
+      subtitle: "Founder"
+#      date: "2024-03-12"
+      categories: [Founders] 
+      
+      
+    - path: 
+      image: "/files/profiles/Sonia-Montemurro.jpg"
+      title: "Sonia Montemurro"
+      lastname: "Website"
+#      author: 
+      subtitle: "Founder"
+#      date: "2024-03-12"
+      categories: [Founders] 
