@@ -1,7 +1,7 @@
 ---
-title: "ONDA Lab website"
+title: "NICLA group website"
 description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/ONDA_logo_v12.png"
+image: "files/images/NICLA_logo.png"
 page-navigation: false
 toc: false
 #sidebar: false
@@ -11,11 +11,11 @@ about:
   id: hero-heading
   template: trestles
   image-width: 100%
-  links:
-    - icon: github
-      text: Lab
-      href: https://github.com/SanCamilloIRCCS-OndaLab
-      target: _blank
+  #links:
+   # - icon: github
+   #   text: Lab
+   #   href: https://github.com/nicla-group
+   #   target: _blank
    #- icon: globe
    #  text: Uprofile
   #    href: https://baruch.cuny.edu
@@ -66,24 +66,18 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 ---
 
 :::{#hero-heading style="font-size: 1.1em;"}
-Welcome to the website of the **ONDA** Lab (**O**pen methodologies in **N**eurorehabilitation and **D**ata **A**nalysis)
+Welcome to the website of the **NICLA** group (**N**europsychology: **I**nnovative concepts for **C**linical **A**ssessment and rehabilitation)
 
-The Lab is located at [IRCCS San Camillo in Venice](https://hsancamillo.it) its research focuses on 
-<span style="color:#1b4f72; font-weight:bold;">N</span>eurorehabilitation and in particular on: 
-<span style="color:#8fc2d7; font-weight:bold;">N</span>europhysiology, 
-<span style="color:#98cae6; font-weight:bold;">N</span>europsychology, and 
-<span style="color:#acd6ec; font-weight:bold;">N</span>euroscience.
+## Who we are
+We are group of people (from Academia and Healthcare), who meet informally to discuss and share ideas about neuropsychology, with a focus on clinical assessment and rehabilitation. We are mostly (but not only) based in Padova, Italy.
 
-## Lab philosophy
+## How to join 
+Send an e-mail to giulia.sebastianutti@phd.unipd.it and ask to join our meetings
 
-The Lab philosophy is focused on rigour and **Open Science** principles. We are committed to sharing our code, methods, data, results but also teaching materials and educational resources to the scientific community, to promote transparency, reproducibility and collaboration in research.
+## Our meetings
+Our meetings are held every 2-3 months, and are open to anyone interested in neuropsychology, clinical assessment, and rehabilitation. They are usually held in Padova, at the spaces of University of Padova.
 
-## What we do
 
-- We develop open tools for neuropsychological assessment and rehabilitation
-- We study brain functions and biomarkers using MEEG
-- We create open-source pipelines for neural data analysis
-- We develop/optimize methods for behavioural and brain data analysis
 
 <!--
 I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).

@@ -9,7 +9,7 @@ description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
 author-meta: "Dr. Gang He"
 
 website:
-  title: "Onda Lab"
+  title: "NICLA"
   image: "https://quarto.org/quarto.png"
   description: "Open methodologies in Neurorehabilitation and Data Analysis"
  
@@ -52,7 +52,7 @@ website:
       #- text: CV
       #  href: files/nsf-biosketch.pdf
       - icon: github
-        href: https://sancamilloirccs-ondalab.github.io/
+        href: https://nicla-group.github.io/
         target: _blank
       #- text: "{{< fa brands bluesky >}}"
       #  href: https://bsky.app
@@ -64,7 +64,7 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Onda Lab](https://sancamilloirccs-ondalab.github.io/) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    left: "[NICLA group](https://nicla-group.github.io/) &copy; <script>document.write(new Date().getFullYear())</script>" 
     center: "Build on [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
     right:  
       - icon: github
