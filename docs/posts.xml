@@ -27,7 +27,7 @@
 
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>ONDA Lab website is online! Thanks to the <a href="https://github.com/drganghe/quarto-academic-website-template">Academic website template</a>, shared by <a href="https://drganghe.github.io/">Dr.&nbsp;Gang He</a> on github, we are able now to share our activities and projects. <strong>Stay tuned!</strong></p>
+<p>NICLA group website is online! Thanks to the <a href="https://github.com/drganghe/quarto-academic-website-template">Academic website template</a>, shared by <a href="https://drganghe.github.io/">Dr.&nbsp;Gang He</a> on github, we are able now to share our activities and projects. <strong>Stay tuned!</strong></p>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
@@ -46,7 +46,7 @@ https://quarto.org/docs/authoring/includes.html
   <category>news</category>
   <guid>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/post1.html</guid>
   <pubDate>Sat, 25 Apr 2026 22:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/ONDA_logo_v12_small.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/NICLA_logo.png" medium="image" type="image/png" height="74" width="144"/>
 </item>
 </channel>
 </rss>

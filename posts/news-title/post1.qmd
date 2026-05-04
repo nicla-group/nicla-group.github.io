@@ -4,7 +4,7 @@ description: "Presentation of ONDA Lab new website"
 author: "News"
 date: "2026-04-26"
 categories: [news]
-image: "/files/images/ONDA_logo_v12_small.png"
+image: "/files/images/NICLA_logo.png"
 #css: /custom.css
 #draft: true
 ---
@@ -12,7 +12,7 @@ image: "/files/images/ONDA_logo_v12_small.png"
 
 ## Summary
 
-ONDA Lab website is online!
+NICLA group website is online!
 Thanks to the [Academic website template](https://github.com/drganghe/quarto-academic-website-template), shared by [Dr. Gang He](https://drganghe.github.io/) on github, we are able now to share our activities and projects. **Stay tuned!**
 
 <!--Include social share buttons-->
