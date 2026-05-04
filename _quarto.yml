@@ -27,7 +27,7 @@ website:
             href: posts.qmd#category=event      
           - text: Contact
             href: contact.qmd             
-      - text: Research
+      #- text: Research
       #  menu:
       #    - text: Publications Listing  # Automatically generated from publications.xlsx
       #      href: pub-listing.qmd
