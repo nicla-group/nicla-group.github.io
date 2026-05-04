@@ -1,10 +1,10 @@
     - path: https://drganghe.github.io/quarto-academic-website-template
-      image: "/files/profiles/profile1.JPG"
-      title: "Student A"
-      lastname: "A"
+      image: "/files/profiles/Giulia_Sebastianutto.jpeg"
+      title: "Giulia Sebastianutto"
+      lastname: ""
 #      author: 
-      subtitle: "PhD Student"
+      subtitle: "Coordinator"
 #      date: "2024-03-12"
-      categories: [PhD Student] 
-      started: "2024"
-      ended: "2025"
+      categories: [Coordinator] 
+      started: "2026"
+      ended: ""
