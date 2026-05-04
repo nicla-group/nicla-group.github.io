@@ -6,6 +6,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/event-title/event1.html",
       "/posts/news-title/post1.html"
     ]
   },
@@ -20,6 +21,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/event-title/event1.html",
       "/posts/news-title/post1.html"
     ]
   }

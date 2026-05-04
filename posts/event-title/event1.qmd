@@ -1,0 +1,22 @@
+---
+title: "2026-05-12 Thresholds in Clinical Practice"
+description: "A discussion on different thresholds in clinical practice"
+author: "Events"
+date: "2026-05-04"
+categories: [event]
+image: "/files/images/Healthy_vs_Pathological.png"
+#css: /custom.css
+#draft: true
+---
+
+
+## Summary of meeting topics
+
+- Scores and GEMS (Global Examination of Mental State) ability to identify pathologies
+- Two types of cut-offs: Clinical (e.g. Crawford & Grathwaite, 1998, 2006) and ROC. Advantages, disadvantages, and does it make sense to have both?
+- Correspondence between cognitive domains and tasks (i.e. on validity and measurement error).
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

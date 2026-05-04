@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr.&nbsp;Gang He">
+<meta name="dcterms.date" content="2026-05-04">
 <meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
 
-<title>NICLA</title>
+<title>2026-05-12 Thresholds in Clinical Practice – NICLA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f07a380226b71dccd824dee245407231.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-f07a380226b71dccd824dee245407231.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-recent-posts .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-recent-posts'] = new List('listing-recent-posts', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
 
 <script type="text/javascript">
@@ -129,48 +99,19 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="NICLA">
-<meta property="og:description" content="Open methodologies in Neurorehabilitation and Data Analysis">
-<meta property="og:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/NICLA_logo.png">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="2026-05-12 Thresholds in Clinical Practice – NICLA">
+<meta property="og:description" content="A discussion on different thresholds in clinical practice">
+<meta property="og:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/Healthy_vs_Pathological.png">
 <meta property="og:site_name" content="NICLA">
-<meta property="og:image:height" content="544">
-<meta property="og:image:width" content="1534">
-<meta name="twitter:title" content="NICLA">
-<meta name="twitter:description" content="Open methodologies in Neurorehabilitation and Data Analysis">
-<meta name="twitter:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/NICLA_logo.png">
-<meta name="twitter:image-height" content="544">
-<meta name="twitter:image-width" content="1534">
+<meta property="og:image:height" content="1000">
+<meta property="og:image:width" content="1400">
+<meta name="twitter:title" content="2026-05-12 Thresholds in Clinical Practice – NICLA">
+<meta name="twitter:description" content="A discussion on different thresholds in clinical practice">
+<meta name="twitter:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/Healthy_vs_Pathological.png">
+<meta name="twitter:image-height" content="1000">
+<meta name="twitter:image-width" content="1400">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -181,7 +122,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">NICLA</span>
     </a>
   </div>
@@ -197,15 +138,15 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./posts.html#category=news">
+    <a class="dropdown-item" href="../../posts.html#category=news">
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./posts.html#category=event">
+    <a class="dropdown-item" href="../../posts.html#category=event">
  <span class="dropdown-text">Events</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./contact.html">
+    <a class="dropdown-item" href="../../contact.html">
  <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
@@ -216,13 +157,13 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-outreach">    
         <li>
-    <a class="dropdown-item" href="./posts.html#category=presentation">
+    <a class="dropdown-item" href="../../posts.html#category=presentation">
  <span class="dropdown-text">Presentations</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
+    <a class="nav-link" href="../../people.html"> 
 <span class="menu-text">Group</span></a>
   </li>  
 </ul>
@@ -233,7 +174,7 @@ window.Quarto = {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../posts.xml" target="_blank"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -250,90 +191,77 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#summary-of-meeting-topics" id="toc-summary-of-meeting-topics" class="nav-link active" data-scroll-target="#summary-of-meeting-topics">Summary of meeting topics</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">2026-05-12 Thresholds in Clinical Practice</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">event</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    A discussion on different thresholds in clinical practice
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Events </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 4, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-<div style="text-align: center; margin-bottom: 1rem;">
-<p><img src="files/images/NICLA_logo.png" class="img-fluid" width="600"></p>
-</div>
-<div style="font-size: 1.1em; max-width: 800px; margin: 0 auto; padding: 1rem 1rem;">
-<center>
-Welcome to the website of the <strong>NICLA</strong> group<br>
-(<strong>N</strong>europsychology: <strong>I</strong>nnovative concepts for <strong>C</strong>linical <strong>A</strong>ssessment and rehabilitation)
-</center>
-<section id="who-we-are" class="level2">
-<h2 class="anchored" data-anchor-id="who-we-are">Who we are</h2>
-<p>We are a group of people (from Academia and Healthcare), who meet informally to discuss and share ideas about neuropsychology, with a focus on clinical assessment and rehabilitation. We are mostly (but not only) based in Padova, Italy.</p>
-</section>
-<section id="how-to-join" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-join">How to join</h2>
-<p>Send an e-mail to <script type="text/javascript">
-<!--
-h='&#112;&#104;&#100;&#46;&#x75;&#110;&#x69;&#112;&#100;&#46;&#x69;&#116;';a='&#64;';n='&#x67;&#x69;&#x75;&#108;&#x69;&#x61;&#46;&#x73;&#x65;&#98;&#x61;&#x73;&#116;&#x69;&#x61;&#110;&#x75;&#116;&#116;&#x6f;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x47;&#x69;&#x75;&#108;&#x69;&#x61;&#32;&#x53;&#x65;&#98;&#x61;&#x73;&#116;&#x69;&#x61;&#110;&#x75;&#116;&#116;&#x6f;'+'<\/'+'a'+'>');
-// -->
-</script><noscript>Giulia Sebastianutto (giulia.sebastianutto at phd dot unipd dot it)</noscript> and ask to join our meetings</p>
-</section>
-<section id="our-meetings" class="level2">
-<h2 class="anchored" data-anchor-id="our-meetings">Our meetings</h2>
-<p>Our meetings are held every 2-3 months, and are open to anyone interested in neuropsychology, clinical assessment, and rehabilitation. They are usually held in Padova, at the spaces of University of Padova.</p>
-</section>
-</div>
-<section id="recent-posts" class="level2">
-<h2 class="anchored" data-anchor-id="recent-posts">Recent Posts</h2>
-<p>Check out the latest &nbsp;<a href="./posts.html#category=paper">Papers</a>&nbsp;, &nbsp;<a href="./posts.html#category=news">News</a>&nbsp;, &nbsp;<a href="./posts.html#category=event">Events</a>&nbsp;, and &nbsp;<a href="./posts.html">More »</a></p>
-<div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="ZXZlbnQ=" data-listing-date-sort="1777845600000" data-listing-file-modified-sort="1777913182326" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
-<a href="./posts/event-title/event1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/Healthy_vs_Pathological.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2026-05-12 Thresholds in Clinical Practice
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 4, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="bmV3cw==" data-listing-date-sort="1777845600000" data-listing-file-modified-sort="1777899544846" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
-<a href="./posts/news-title/post1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./files/images/NICLA_logo_large.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-NICLA website is online!
-</h5>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-May 4, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<p align="right">
-<a href="./posts.html">All Posts »</a>
-</p>
+</header>
 
+
+<section id="summary-of-meeting-topics" class="level2">
+<h2 class="anchored" data-anchor-id="summary-of-meeting-topics">Summary of meeting topics</h2>
+<ul>
+<li>Scores and GEMS (Global Examination of Mental State) ability to identify pathologies</li>
+<li>Two types of cut-offs: Clinical (e.g.&nbsp;Crawford &amp; Grathwaite, 1998, 2006) and ROC. Advantages, disadvantages, and does it make sense to have both?</li>
+<li>Correspondence between cognitive domains and tasks (i.e.&nbsp;on validity and measurement error).</li>
+</ul>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
 
 
 </section>
@@ -762,7 +690,7 @@ May 4, 2026
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank">
+    <a class="nav-link" href="../../posts.xml" target="_blank">
       <i class="bi bi-rss" role="img">
 </i> 
     </a>

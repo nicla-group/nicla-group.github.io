@@ -17,6 +17,42 @@
 <generator>quarto-1.7.31</generator>
 <lastBuildDate>Sun, 03 May 2026 22:00:00 GMT</lastBuildDate>
 <item>
+  <title>2026-05-12 Thresholds in Clinical Practice</title>
+  <dc:creator>Events </dc:creator>
+  <link>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/event1.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="summary-of-meeting-topics" class="level2">
+<h2 class="anchored" data-anchor-id="summary-of-meeting-topics">Summary of meeting topics</h2>
+<ul>
+<li>Scores and GEMS (Global Examination of Mental State) ability to identify pathologies</li>
+<li>Two types of cut-offs: Clinical (e.g.&nbsp;Crawford &amp; Grathwaite, 1998, 2006) and ROC. Advantages, disadvantages, and does it make sense to have both?</li>
+<li>Correspondence between cognitive domains and tasks (i.e.&nbsp;on validity and measurement error).</li>
+</ul>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+</section>
+
+ ]]></description>
+  <category>event</category>
+  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/event1.html</guid>
+  <pubDate>Sun, 03 May 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/Healthy_vs_Pathological.png" medium="image" type="image/png" height="103" width="144"/>
+</item>
+<item>
   <title>NICLA website is online!</title>
   <dc:creator>News </dc:creator>
   <link>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/post1.html</link>
