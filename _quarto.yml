@@ -28,17 +28,17 @@ website:
           - text: Contact
             href: contact.qmd             
       - text: Research
-        menu:
-          - text: Publications Listing  # Automatically generated from publications.xlsx
-            href: pub-listing.qmd
-          - text: Publications  # Manually curated list of publications
-            href: publications.qmd            
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
-      - text: Resources # added by Giorgio
-        href: resources.qmd
+      #  menu:
+      #    - text: Publications Listing  # Automatically generated from publications.xlsx
+      #      href: pub-listing.qmd
+      #    - text: Publications  # Manually curated list of publications
+      #      href: publications.qmd            
+      #    - text: Selected Papers
+      #      href: posts.qmd#category=paper
+      #    - text: Grants
+      #      href: projects.qmd                                
+      #- text: Resources # added by Giorgio
+      #  href: resources.qmd
       - text: Outreach
         menu:        
         - text: Presentations
