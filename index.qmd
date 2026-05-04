@@ -1,53 +1,10 @@
 ---
-title: "NICLA group website"
+#title: "NICLA group website"
 description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/NICLA_logo.png"
 page-navigation: false
 toc: false
-#sidebar: false
 page-layout: full
-
-about:
-  id: hero-heading
-  template: trestles
-  image-width: 100%
-  #links:
-   # - icon: github
-   #   text: Lab
-   #   href: https://github.com/nicla-group
-   #   target: _blank
-   #- icon: globe
-   #  text: Uprofile
-  #    href: https://baruch.cuny.edu
-   #   target: _blank
-  #  - icon: envelope
-   #   text: E-mail
-    #  href: mailto:email@gmail.com    
-    #- icon: linkedin
-    #  text: LinkedIn
-    #  href: https://linkedin.com
-    #  target: _blank
-    #- icon: youtube
-    #  text: YouTube
-    #  href: https://www.youtube.com     
-    #  target: _blank 
-    #- text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-    #  href: https://orcid.org
-    #  target: _blank
-    # - text: "{{< ai clarivate >}} Web of Science"
-    #  href: https://www.webofscience.com  
-    #  target: _blank
-    # - text: "{{< ai scopus >}} Scopus"
-    #  href: https://www.scopus.com
-    #  target: _blank
-    # - text: "{{< ai google-scholar >}} Google Scholar"
-    #  href: https://scholar.google.com
-    #  target: _blank
-#   # - text: "{{< ai researchgate >}} Research Gate"
-#   #   href: https://www.researchgate.net
-#   #   target: _blank
-
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
+listing:
   - id: recent-posts
     contents: 
       - posts
@@ -56,8 +13,7 @@ listing:   # Comment the listing section and delete corresponding lines in the i
       title: ""
     type: grid
     max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
+    page-size: 3
     fields: [image, date, title, subtitle]
     max-description-length: 75
     sort: 
@@ -65,8 +21,15 @@ listing:   # Comment the listing section and delete corresponding lines in the i
       - "title asc"
 ---
 
-:::{#hero-heading style="font-size: 1.1em;"}
-Welcome to the website of the **NICLA** group (**N**europsychology: **I**nnovative concepts for **C**linical **A**ssessment and rehabilitation)
+:::{style="text-align: center; margin-bottom: 1rem;"}
+![](files/images/NICLA_logo.png){width=600px}
+:::
+
+:::{style="font-size: 1.1em; max-width: 800px; margin: 0 auto; padding: 1rem 1rem;"}
+<center>
+Welcome to the website of the **NICLA** group \
+(**N**europsychology: **I**nnovative concepts for **C**linical **A**ssessment and rehabilitation)
+</center>
 
 ## Who we are
 We are group of people (from Academia and Healthcare), who meet informally to discuss and share ideas about neuropsychology, with a focus on clinical assessment and rehabilitation. We are mostly (but not only) based in Padova, Italy.
@@ -76,32 +39,9 @@ Send an e-mail to giulia.sebastianutti@phd.unipd.it and ask to join our meetings
 
 ## Our meetings
 Our meetings are held every 2-3 months, and are open to anyone interested in neuropsychology, clinical assessment, and rehabilitation. They are usually held in Padova, at the spaces of University of Padova.
-
-
-
-<!--
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
-
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
-
-I can automatically generate a neat publication list from an Excel file and enabling categories and filters.
-
-Check [README.md](https://github.com/drganghe/quarto-academic-website-template/blob/main/README.md) for more detailed instructions.
-
--->
-<!--
-## Experience
-
-- Researcher, Univerisity
-
-## Education
-
-- PhD, Univerisity
--->
 :::
 
 
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
 ## Recent Posts
 Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
 
